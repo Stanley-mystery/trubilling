@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trubilling - Smart Invoicing &amp; Expense Management for African Businesses</title>
+
+    <meta content="TruBilling" name="author">
+    <meta name="description" content="Trubilling is Africa’s leading invoicing and expense management platform designed for entrepreneurs, SMEs, and business developers. Send professional invoices, track expenses, and manage finances effortlessly. Sign up for free today!">
+
+    <meta name="keywords" content="Invoicing software, expense tracking, business finance management, billing software Africa, SME invoicing, online invoicing, financial management, small business accounting, Trubilling, invoice generator, receipt management, tax calculations, digital payments Africa">
+
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Favicons -->
+    <link href="http://trubilling.test/logo/favicon-32x32.png" rel="icon" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- glassbox  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+
+    <!-- swiper CDN  -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Bootstrap Icons CDN -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- AOS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+ <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">trubilling</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+     
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <div>
+        <a class="btn-getstarted-outlined" href="">Sign up</a>
+         <a class="btn-getstarted" href="">Login</a>
+      </div>
+
+    </div>
+  </header>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+
+          <!-- LEFT CONTENT -->
+          <div class="col-lg-6 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">
+            <div class="hero-content">
+              
+              <h1 class="hero-title">Take Control of Your Finances – Grow Your Business with Ease</h1>
+
+              <p class="hero-description">
+                Spend less time on paperwork and more time growing your business. Our all-in-one invoicing platform makes it easy to send invoices, track expenses, and manage cash flow effortlessly.
+                Designed for entrepreneurs and small businesses, our solution helps you stay organized and get paid faster—without stress.
+              </p>
+
+              <ul class="hero-description list-unstyled mb-4">
+                <li>✅ Send professional invoices in seconds</li>
+                <li>✅ Track expenses & manage cash flow with ease</li>
+                <li>✅ Stay in control—anytime, anywhere</li>
+              </ul>
+
+              <div class="hero-actions">
+                <a href="#get-started" class="btn-primary">Get Started For Free</a>
+              </div>
+
+              <!-- <div class="hero-stats">
+                <div class="stat-item">
+                  <span class="stat-number">10K+</span>
+                  <span class="stat-label">Invoices Sent</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">95%</span>
+                  <span class="stat-label">Faster Payments</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">5,000+</span>
+                  <span class="stat-label">Businesses Using Us</span>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- RIGHT IMAGE -->
+          <div class="col-lg-6 order-1 order-lg-2 aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
+            <div class="hero-visual">
+              <div class="hero-image-wrapper">
+                <img src="http://trubilling.test/img/streamline.png" class="img-fluid hero-image" alt="Invoicing Platform">
+                
+                <div class="floating-elements">
+                  <div class="floating-card card-1">
+                    <i class="bi bi-lightning-fill"></i>
+                    <span>Fast Billing</span>
+                  </div>
+                  <div class="floating-card card-2">
+                    <i class="bi bi-wallet2"></i>
+                    <span>Smart Finance</span>
+                  </div>
+                  <div class="floating-card card-3">
+                    <i class="bi bi-bar-chart-line"></i>
+                    <span>Growth Focused</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+
+<section id="about" class="about section mt-10 mb-10">
+            <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 position-relative aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">
+                        <div class="about-image">
+                            <img src="http://trubilling.test/img/tool.png" class="img-fluid" alt="" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
+                        <div class="about-content">
+                            <h2>The Only Financial Management <br>Tool You Need</h2>
+                            <p class="lead mb-4">Take control of your business finances with Trubilling, the all-in-one
+                                platform
+                                designed for entrepreneurs and small businesses. From invoicing and expense tracking to tax
+                                calculations
+                                and detailed analytics, everything you need is in one place—so you can focus on growing your
+                                business,
+                                not managing spreadsheets.</p>
+                            <p class="lead"> Simplify your financial workflow today!</p>
+                            <div class="mt-2">
+                                <a href="#" class="text-decoration-none fw-semibold">
+                                    Try Trubilling for Free <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center mt-5">
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
+                        <div class="about-content">
+                            <h2>Effortless Expense Tracking <br> for Smarter Business Decisions</h2>
+
+                            <p class="lead mb-4">
+                                Stop wasting time on spreadsheets—Trubilling makes expense tracking
+                                seamless. Easily monitor, categorize, and manage your business expenses in one place, so you
+                                stay on top of your finances without the hassle.
+                            </p>
+                            <div class="row mt-4">
+                                <div class="col-md-6 mb-4">
+                                    <h5 class="fw-bold">✅ Save Time</h5>
+                                    <p class="text-muted">Automatically track and categorize expenses for accurate
+                                        financial records and
+                                        stress-free tax calculations.</p>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <h5 class="fw-bold">✅ Boost Efficiency</h5>
+                                    <p class="text-muted">Eliminate manual errors, simplify your workflow, and focus on
+                                        growing your
+                                        business.</p>
+                                </div>
+                            </div>
+                            <p class="lead">Take control of your business finances today!</p>
+                            <div class="mt-2">
+                                <a href="#" class="text-decoration-none fw-semibold">
+                                    Start Tracking for Free <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 position-relative aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">
+                        <div class="about-image">
+                            <img src="http://trubilling.test/img/expense.jpg" class="img-fluid" alt="" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+
+  <!-- Features Section -->
+<section id="features" class="features section">
+
+  <!-- Section Title -->
+  <div class="container section-title aos-init" data-aos="fade-up">
+    <span class="description-title">Core Features</span>
+    <h2>Everything You Need to Manage Your Business Finances</h2>
+    <p>Trubilling brings invoicing, expense tracking, tax automation, and analytics into one powerful, easy-to-use platform.</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container aos-init" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="tabs-wrapper">
+      <ul class="nav nav-tabs aos-init" data-aos="fade-up" data-aos-delay="100" role="tablist">
+
+        <!-- Tab 1 -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
+            <div class="tab-icon">
+              <i class="bi bi-receipt-cutoff"></i>
+            </div>
+            <div class="tab-content">
+              <h5>Invoicing</h5>
+              <span>Create & Send <br/> Professional Invoices</span>
+            </div>
+          </a>
+        </li>
+
+        <!-- Tab 2 -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" role="tab">
+            <div class="tab-icon">
+              <i class="bi bi-wallet2"></i>
+            </div>
+            <div class="tab-content">
+              <h5>Expense Tracking</h5>
+              <span>Organize Every<br/> Business Expense</span>
+            </div>
+          </a>
+        </li>
+
+        <!-- Tab 3 -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" role="tab">
+            <div class="tab-icon">
+              <i class="bi bi-percent"></i>
+            </div>
+            <div class="tab-content">
+              <h5>Tax Automation</h5>
+              <span>Automatic Tax <br/>Calculation</span>
+            </div>
+          </a>
+        </li>
+
+        <!-- Tab 4 -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" role="tab">
+            <div class="tab-icon">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <div class="tab-content">
+              <h5>Analytics</h5>
+              <span>Track Growth <br/> & Performance</span>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+
+      <div class="tab-content aos-init" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- TAB 1: INVOICING -->
+        <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
+          <div class="row align-items-center">
+
+            <div class="col-lg-5">
+              <div class="content-wrapper">
+                <div class="icon-badge">
+                  <i class="bi bi-receipt-cutoff"></i>
+                </div>
+                <h3>Send Beautiful, Multicurrency Invoices in Seconds</h3>
+                <p>Create professional invoices, send them instantly, and keep track of payments—all from one dashboard.</p>
+
+                <div class="feature-grid">
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Create branded invoices</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Support for multiple currencies</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Track invoice status in real time</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Send reminders automatically</span></div>
+                </div>
+
+                <div class="stats-row">
+                  <div class="stat-item"><div class="stat-number">2min</div><div class="stat-label">Avg Invoice Creation</div></div>
+                  <div class="stat-item"><div class="stat-number">98%</div><div class="stat-label">Faster Processing</div></div>
+                  <div class="stat-item"><div class="stat-number">Multi</div><div class="stat-label">Currency Support</div></div>
+                </div>
+
+                <a href="#" class="btn-primary">Create Your First Invoice <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="visual-content">
+                <div class="main-image">
+                  <img src="assets/images/invoice.png" alt="" class="img-fluid">
+                  <div class="floating-card">
+                    <i class="bi bi-receipt"></i>
+                    <div class="card-content">
+                      <span>Invoices</span>
+                      <strong>100% Organized</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- TAB 2: EXPENSE TRACKING -->
+        <div class="tab-pane fade" id="features-tab-2" role="tabpanel">
+          <div class="row align-items-center">
+
+            <div class="col-lg-5">
+              <div class="content-wrapper">
+                <div class="icon-badge">
+                  <i class="bi bi-wallet2"></i>
+                </div>
+                <h3>Effortlessly Track All Your Business Expenses</h3>
+                <p>Stay organized with smart expense categorization and real-time insights into your spending.</p>
+
+                <div class="feature-grid">
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Upload receipts instantly</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Auto-categorized transactions</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Monitor spending by category</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Real-time expense dashboard</span></div>
+                </div>
+
+                <div class="stats-row">
+                  <div class="stat-item"><div class="stat-number">100%</div><div class="stat-label">Organized Expenses</div></div>
+                  <div class="stat-item"><div class="stat-number">Real-time</div><div class="stat-label">Tracking</div></div>
+                  <div class="stat-item"><div class="stat-number">Smart</div><div class="stat-label">Categories</div></div>
+                </div>
+
+                <a href="#" class="btn-primary">Track Expenses <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="visual-content">
+                <div class="main-image">
+                  <img src="assets/images/expenses.png" alt="" class="img-fluid">
+                  <div class="floating-card">
+                    <i class="bi bi-wallet-fill"></i>
+                    <div class="card-content">
+                      <span>Expenses</span>
+                      <strong>Fully Synced</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- TAB 3: TAX CALCULATIONS -->
+        <div class="tab-pane fade" id="features-tab-3" role="tabpanel">
+          <div class="row align-items-center">
+
+            <div class="col-lg-5">
+              <div class="content-wrapper">
+                <div class="icon-badge">
+                  <i class="bi bi-percent"></i>
+                </div>
+                <h3>Automatic Tax Calculations & Compliance</h3>
+                <p>Trubilling handles tax computations for you, ensuring accuracy and eliminating manual errors.</p>
+
+                <div class="feature-grid">
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Auto-calculate taxes for invoices</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Track taxable and non-taxable items</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Generate tax reports instantly</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Stay fully compliant</span></div>
+                </div>
+
+                <div class="stats-row">
+                  <div class="stat-item"><div class="stat-number">0%</div><div class="stat-label">Manual Errors</div></div>
+                  <div class="stat-item"><div class="stat-number">Auto</div><div class="stat-label">Reporting</div></div>
+                  <div class="stat-item"><div class="stat-number">100%</div><div class="stat-label">Compliance</div></div>
+                </div>
+
+                <a href="#" class="btn-primary">Automate Tax <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="visual-content">
+                <div class="main-image">
+                  <img src="assets/images/taxtypes.png" alt="" class="img-fluid">
+                  <div class="floating-card">
+                    <i class="bi bi-percent"></i>
+                    <div class="card-content">
+                      <span>Tax</span>
+                      <strong>Fully Automated</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- TAB 4: ANALYTICS -->
+        <div class="tab-pane fade" id="features-tab-4" role="tabpanel">
+          <div class="row align-items-center">
+
+            <div class="col-lg-5">
+              <div class="content-wrapper">
+                <div class="icon-badge">
+                  <i class="bi bi-graph-up-arrow"></i>
+                </div>
+                <h3>Gain Insights with Smart Financial Analytics</h3>
+                <p>Monitor business performance with real-time dashboards and detailed financial reports.</p>
+
+                <div class="feature-grid">
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Track income & expenses</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>View financial trends</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Analyze top clients & categories</span></div>
+                  <div class="feature-item"><i class="bi bi-check-circle-fill"></i><span>Make data-driven decisions</span></div>
+                </div>
+
+                <div class="stats-row">
+                  <div class="stat-item"><div class="stat-number">Real-time</div><div class="stat-label">Dashboard</div></div>
+                  <div class="stat-item"><div class="stat-number">Smart</div><div class="stat-label">Insights</div></div>
+                  <div class="stat-item"><div class="stat-number">All-in-One</div><div class="stat-label">Analytics</div></div>
+                </div>
+
+                <a href="#" class="btn-primary">Explore Analytics <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="visual-content">
+                <div class="main-image">
+                  <img src="http://trubilling.test/img/slider1.png" alt="" class="img-fluid">
+                  <div class="floating-card">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    <div class="card-content">
+                      <span>Analytics</span>
+                      <strong>Instant Insights</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /Features Section -->
+
+
+
+<!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title aos-init" data-aos="fade-up">
+    <span class="description-title">Our Services</span>
+    <h2>Smart Financial Tools for Your Business</h2>
+    <p>Designed to help entrepreneurs, freelancers, and small businesses stay organized, get paid faster, and manage finances effortlessly.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container aos-init" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="intro-content aos-init" data-aos="fade-right" data-aos-delay="100">
+          <div class="section-badge mb-3 aos-init" data-aos="zoom-in" data-aos-delay="50">
+            <i class="bi bi-cash-stack"></i>
+            <span>WHY CHOOSE US</span>
+          </div>
+
+          <h2 class="section-heading mb-4">Take Control of Your Finances – Grow Your Business with Ease</h2>
+
+          <p class="section-description mb-4">
+            Spend less time on paperwork and more time doing what you love.  
+            Our all-in-one platform helps you send invoices, track expenses, and manage your cash flow effortlessly.
+          </p>
+
+          <ul class="section-description mb-4" style="list-style: none; padding-left: 0;">
+            <li>✅ Send professional invoices in seconds</li>
+            <li>✅ Track expenses & stay organized with ease</li>
+            <li>✅ Manage cash flow anytime, anywhere</li>
+          </ul>
+
+          <a href="#" class="cta-button aos-init" data-aos="fade-right" data-aos-delay="200">
+            Explore Features
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="hero-visual aos-init" data-aos="fade-left" data-aos-delay="150">
+          <img src="http://trubilling.test/img/slider2.jpg" alt="Services" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="services-grid mt-5">
+      <div class="row g-4">
+
+        <!-- 01 -->
+        <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card">
+            <div class="card-number"><span>01</span></div>
+            <div class="card-content">
+              <h5 class="service-title"><a href="#">Smart Invoicing</a></h5>
+              <p class="service-description">
+                Create and send beautiful, professional invoices in seconds—and get paid faster with automated reminders.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card">
+            <div class="card-number"><span>02</span></div>
+            <div class="card-content">
+              <h5 class="service-title"><a href="#">Expense Tracking</a></h5>
+              <p class="service-description">
+                Stay on top of spending with categorized expense tracking and real-time financial insights.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-card">
+            <div class="card-number"><span>03</span></div>
+            <div class="card-content">
+              <h5 class="service-title"><a href="#">Cash Flow Management</a></h5>
+              <p class="service-description">
+                Understand your financial health at a glance with powerful dashboards and cash flow analytics.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 04 -->
+        <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card">
+            <div class="card-number"><span>04</span></div>
+            <div class="card-content">
+              <h5 class="service-title"><a href="#">Recurring Billing</a></h5>
+              <p class="service-description">
+                Automate subscriptions and recurring invoices so you never miss a payment again.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05 -->
+        <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card">
+            <div class="card-number"><span>05</span></div>
+            <div class="card-content">
+              <h5 class="service-title"><a href="#">Client Management</a></h5>
+              <p class="service-description">
+                Keep all client details in one organized place—contacts, invoices, transactions, and history.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 06 -->
+        <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-card">
+            <div class="card-number"><span>06</span></div>
+            <div class="card-content">
+              <h5 class="service-title"><a href="#">Financial Reporting</a></h5>
+              <p class="service-description">
+                Generate detailed reports to understand trends, track inflow/outflow, and make data-driven decisions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- /Services Section -->
+
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title aos-init" data-aos="fade-up">
+        <span class="description-title">Pricing</span>
+        <h2>Pricing</h2>
+        <p>Find the right plan for your business</p>
+      </div><!-- End Section Title -->
+
+      <div class="container aos-init" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="pricing-toggle-container mb-5 aos-init" data-aos="zoom-in" data-aos-delay="150">
+          <!-- <div class="pricing-toggle d-inline-flex align-items-center gap-3 px-3 py-2 rounded-pill">
+            <span class="monthly active">Monthly</span>
+            <label class="switch m-0">
+              <input type="checkbox" aria-label="Toggle pricing">
+              <span class="slider"></span>
+            </label>
+            <span class="yearly">Yearly</span>
+          </div> -->
+          <p class="hint mt-3 mb-0 small">Enjoy Free Unlimited Updates on All Plans & Premium Support on PowerPlan and Enterprise.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="200">
+            <article class="price-card h-100">
+              <div class="card-head">
+                <span class="badge-title">Starter</span>
+                <h3 class="title">Freemium (3 Months Free)</h3>
+                <p class="subtitle">Perfect for freelancers and solo entrepreneurs, the Freemium plan provides all the essential invoicing tools at no cost. Create and manage unlimited invoices, track expenses, generate receipts, and send multi-currency invoices with ease.</p>
+                <div class="price-wrap">
+                  <span class="price price-monthly"><sup>$</sup>0<span class="period">/mo</span></span>
+                  <span class="price price-yearly"><sup>$</sup>120<span class="period">/yr</span></span>
+                </div>
+              </div>
+
+              <ul class="feature-list list-unstyled mb-4">
+                <li><i class="bi bi-check-circle"></i> 1 Account</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Invoices</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Expenses</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Quotes</li>
+                <li><i class="bi bi-check-circle"></i> Multi Currency Invoicing</li>
+                <li><i class="bi bi-check-circle"></i> 1 Invoice Template</li>
+                <li><i class="bi bi-check-circle"></i> 1 User</li>
+                <li><i class="bi bi-check-circle"></i> Income Category</li>
+                <li><i class="bi bi-check-circle"></i> Expense Category</li>
+                <li><i class="bi bi-check-circle"></i> Receipt Generation</li>
+              </ul>
+
+
+              <div class="cta">
+                <a href="#" class="btn btn-choose w-100">Get Started</a>
+              </div>
+            </article><!-- End Pricing Item -->
+          </div>
+
+          <div class="col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="250">
+            <article class="price-card featured h-100 position-relative">
+              <div class="ribbon"><i class="bi bi-star-fill"></i> Popular</div>
+
+              <div class="card-head">
+                <span class="badge-title">Pro</span>
+                <h3 class="title">Power Plan</h3>
+                <p class="subtitle">Designed for small businesses, the PowerPlan unlocks advanced features to manage multiple business accounts and users. With unlimited invoices, expenses, and quotes, plus the ability to create custom invoice templates, this plan gives you the flexibility to scale your business.</p>
+                <div class="price-wrap">
+                  <span class="price price-monthly"><sup>$</sup>5000<span class="period">/mo</span></span>
+                  <span class="price price-yearly"><sup>$</sup>290<span class="period">/yr</span></span>
+                </div>
+              </div>
+
+              <ul class="feature-list list-unstyled mb-4">
+                <li><i class="bi bi-check-circle"></i> 2 Business Accounts</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Invoices</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Expenses</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Quotes</li>
+                <li><i class="bi bi-check-circle"></i> Multi Currency Invoicing</li>
+                <li><i class="bi bi-check-circle"></i> Unlimited Invoice Templates</li>
+                <li><i class="bi bi-check-circle"></i> 3 Users</li>
+                <li><i class="bi bi-check-circle"></i> Income Category</li>
+                <li><i class="bi bi-check-circle"></i> Expense Category</li>
+                <li><i class="bi bi-check-circle"></i> Receipt Generation</li>
+              </ul>
+
+              <div class="cta">
+                <a href="#" class="btn btn-choose w-100">Choose Pro</a>
+              </div>
+            </article><!-- End Pricing Item -->
+          </div>
+
+     <div class="col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="300">
+  <article class="price-card h-100">
+    <div class="card-head">
+      <span class="badge-title">Enterprise</span>
+      <h3 class="title">Enterprise</h3>
+      <p class="subtitle">
+       Designed for small businesses, the PowerPlan unlocks advanced features to manage multiple business accounts and users. With unlimited invoices, expenses, and quotes, plus the ability to create custom invoice templates, this plan gives you the flexibility to scale your business.
+      </p>
+
+      <div class="price-wrap">
+        <span class="price price-monthly"><sup>$</sup>—<span class="period">/mo</span></span>
+        <span class="price price-yearly"><sup>$</sup>—<span class="period">/yr</span></span>
+      </div>
+    </div>
+
+    <ul class="feature-list list-unstyled mb-4">
+      <li><i class="bi bi-dash-circle"></i> Features determined by admin</li>
+      <li><i class="bi bi-dash-circle"></i> Pricing determined by admin</li>
+      <li><i class="bi bi-dash-circle"></i> Custom limits based on requirements</li>
+      <li><i class="bi bi-dash-circle"></i> Business-specific configuration</li>
+      <li><i class="bi bi-dash-circle"></i> Tailored enterprise support</li>
+    </ul>
+
+    <div class="cta">
+      <a href="#" class="btn btn-choose w-100">Contact Admin</a>
+    </div>
+  </article>
+</div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <section id="faq" class="faq section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+              <p>
+                Simplify your business finances with <strong>Trubilling</strong> — your all-in-one invoicing 
+                and expense management platform. Create and send invoices in seconds, automate expense 
+                tracking, and manage everything from a clean, user-friendly dashboard. Stay organized, reduce 
+                errors, and keep your business running smoothly.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+
+              <!-- FAQ 1 -->
+              <div class="faq-item faq-active">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>How do I create and send an invoice on Trubilling?</h3>
+                <div class="faq-content">
+                  <p>
+                    Creating an invoice is simple — just fill in your client details, add your services or 
+                    products, and click “Send”. Trubilling automatically generates a professional, branded 
+                    invoice and delivers it directly to your client’s email.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <!-- FAQ 2 -->
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Can I track expenses and categorize them automatically?</h3>
+                <div class="faq-content">
+                  <p>
+                    Yes! Trubilling allows you to upload receipts, enter expenses manually, and categorize them 
+                    instantly. The system also supports automated tracking, helping you stay tax-ready without 
+                    stress.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <!-- FAQ 3 -->
+              <div class="faq-item">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Does Trubilling support multi-user access for my team?</h3>
+                <div class="faq-content">
+                  <p>
+                    Absolutely. Depending on your plan, you can add team members, assign permissions, and allow 
+                    them to manage invoices, expenses, or reports. This makes collaboration seamless for growing 
+                    businesses.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="https://bootstrapmade.com/content/demo/HeroBiz/assets/img/faq.jpg" 
+                class="img-fluid aos-init aos-animate" 
+                alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  <section id="contact" class="contact section">
+
+            <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <div class="content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                            <div class="section-category mb-3">Contact</div>
+                            <h2 class="display-5 mb-4">Contact us for more information and updates</h2>
+                            <p class="lead mb-4">Have questions, need support, or want to explore partnership
+                                opportunities?
+                                We’re here to help!<br><br>
+
+                                Reach out to the Trubilling team and we’ll respond promptly.</p>
+
+                            <div class="contact-info mt-5">
+                                <div class="info-item d-flex mb-3">
+                                    <i class="bi bi-envelope-at me-3"></i>
+                                    <span>contact@trubillingsystems.com</span>
+                                </div>
+
+                                <div class="info-item d-flex mb-3">
+                                    <i class="bi bi-telephone me-3"></i>
+                                    <span>+234 9125902625</span>
+                                </div>
+
+                                <div class="info-item d-flex mb-4">
+                                    <i class="bi bi-geo-alt me-3"></i>
+                                    <span>www.trubillingsystems.com</span>
+                                </div>
+
+                                <a href="#" class="map-link d-inline-flex align-items-center">
+                                    Open Map
+                                    <i class="bi bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="contact-form card aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card-body p-4 p-lg-5">
+
+                                <form action="http://trubilling.test/contact" method="post" class="php-email-form">
+                                    <input type="hidden" name="_token" value="YnBeDwcv6hGcB5qwZPTl0ljQtf2xJSAODRl4eiXQ">                                    <div class="row gy-4">
+
+                                        <div class="col-12">
+                                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                                        </div>
+
+                                        <div class="col-12 ">
+                                            <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                                        </div>
+
+                                        <div class="col-12 text-center">
+                                            <div class="loading">Loading</div>
+                                            <div class="error-message"></div>
+                                            <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                                            <button type="submit" class="btn btn-submit w-100">Submit Message</button>
+                                        </div>
+
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+  </main>
+
+   <footer class="py-4 py-sm-2 py-xl-4 rounded-top-3 rounded-sm-4 rounded-xl-5 m-0 m-sm-2 shadow mt-sm-auto">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-4">
+                <!-- <a href="javascript:;" class="mb-3 link-body-emphasis d-flex align-items-center text-decoration-none">
+                    <img src="http://trubilling.test/logo/logo.png" alt="logo" loading="lazy" class="footer-logo">
+                </a> -->
+
+                <p class="mt-4 mb-4 pt-2 text-body-secondary leading-6 text-sm d-none">
+                    Creating a more positive world by building graceful structures
+                </p>
+            </div>
+
+        <hr class="mt-6 mb-0 text-body-emphasis opacity-10">
+
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <div class="order-last order-md-first mt-5 text-body-secondary leading-6 text-sm">
+            
+                <span class="current-year">2025</span>
+                Trubilling, All rights reserved. Trubilling Systems / MADESIGNS LTD
+            </div>
+
+            <div class="order-first order-md-last mt-5">
+                <!-- twitter icon -->
+                <a href="https://x.com/trubilling" target="_blank" rel="noopener noreferrer" class="btn border bg-body-secondary-hover social me-3 p-2 rounded-circle">
+                    <span class="d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- intagram icon -->
+                <a href="https://www.instagram.com/trubilling" target="_blank" rel="noopener noreferrer" class="btn border bg-body-secondary-hover social me-3 p-2 rounded-circle">
+                    <span class="d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- facebook icon -->
+                <a href="https://web.facebook.com/trubillingsystems" target="_blank" rel="noopener noreferrer" class="btn border bg-body-secondary-hover social me-3 p-2 rounded-circle">
+                    <span class="d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 320 512">
+                            <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div></footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="line"></div>
+    </div>
+
+    <!-- Vendor JS Files -->
+
+
+    <!-- typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js"></script>
+
+    <!-- glassbox  -->
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+    <!-- purecounter  -->
+    <script src="https://cdn.jsdelivr.net/npm/purecounterjs@1.5.0/dist/purecounter_vanilla.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- pure counter JS File -->
+    <script src="assets/vendor/js/purecounter.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+      integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+      data-cf-beacon='{"rayId":"9511981dfd56dbfb","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.6.2","token":"68c5ca450bae485a842ff76066d69420"}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
